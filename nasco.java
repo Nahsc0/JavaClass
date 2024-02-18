@@ -1,6 +1,8 @@
 import java.util.Date;
 
-public class nasco {
+import java.awt.*;
+
+public class Nasco {
     public static void main(String[] args) {
         int age = 27;
         age = 45;
@@ -34,6 +36,20 @@ public class nasco {
 
         System.out.println(x);
         System.out.println(y);
+
+        Point point1 = new Point(1, 1);
+        Point point2 = point1;
+        point1.x = 2;
+
+        System.out.println(point2);
+        String message = new String( "Hello Nasco" + ", send me your account details please!");
+        System.out.println(message);
+        
+        String str = "Hello, Jafaru!";
+        int length = str.length();
+        System.out.println("Length of string: " + length);
+
+
 
 
        // System.out.println(age, maikudi, viewCounts, price, eligibleForLoan, letter);

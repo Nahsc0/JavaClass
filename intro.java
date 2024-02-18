@@ -1,36 +1,36 @@
-// public class HelloWorld {
-//     public static void main(String[] args) {
-//         System.out.println("Hello, World!");
-//     }
-// }
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
 
-// public class VariableExample {
-//     public static void main(String[] args) {
-//         // Declaration and initialization of variables
-//         int number = 42;
-//         double pi = 3.14;
-//         String message = "Java Programming";
+public class VariableExample {
+    public static void main(String[] args) {
+        // Declaration and initialization of variables
+        int number = 42;
+        double pi = 3.14;
+        String message = "Java Programming";
 
-//         // Printing variables
-//         System.out.println("Number: " + number);
-//         System.out.println("Pi: " + pi);
-//         System.out.println("Message: " + message);
-//     }
-// }
+        // Printing variables
+        System.out.println("Number: " + number);
+        System.out.println("Pi: " + pi);
+        System.out.println("Message: " + message);
+    }
+}
 
 
-// public class ConditionalExample {
-//     public static void main(String[] args) {
-//         int age = 25;
+public class ConditionalExample {
+    public static void main(String[] args) {
+        int age = 25;
 
-//         // Conditional statement
-//         if (age >= 18) {
-//             System.out.println("You are an adult.");
-//         } else {
-//             System.out.println("You are a minor.");
-//         }
-//     }
-// }
+        // Conditional statement
+        if (age >= 18) {
+            System.out.println("You are an adult.");
+        } else {
+            System.out.println("You are a minor.");
+        }
+    }
+}
 
 
 // Car class, representing the blueprint for creating cars
